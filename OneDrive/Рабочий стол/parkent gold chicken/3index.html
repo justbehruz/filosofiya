@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myWork/style/fonts.css">
+    <link rel="stylesheet" href="myWork/style/all.min.css">
+    <link rel="stylesheet" href="myWork/style/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- Пакет JavaScript с Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="myWork/style/style.css">
+  </head>
+<body>
+  <nav class="navbar bg-light fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Информация</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="myWork/2index.html">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="3index.html">Экспорт</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Выпадающий список
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Действие</a></li>
+                <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="section__work">
+    <div class="container">
+      <h2 class="title">Наши партнеры</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-xl-3">
+          <div class="list-group section__work-list" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action section__work-link active" id="list-nike-list"
+              data-bs-toggle="list" href="#list-nike" role="tab" aria-controls="list-home">"Hilton Tashkent City"</a>
+            <a class="list-group-item list-group-item-action section__work-link" id="list-TNW-list"
+              data-bs-toggle="list" href="#list-TNW" role="tab" aria-controls="list-home">"Master Delicatesov"</a>
+            <a class="list-group-item list-group-item-action section__work-link" id="list-Blue Marketing-list"
+              data-bs-toggle="list" href="#list-Blue Marketing" role="tab" aria-controls="list-home">Гостиница "International"</a>
+            <a class="list-group-item list-group-item-action section__work-link" id="list-bouleverd-list"
+              data-bs-toggle="list" href="#list-bouleverd" role="tab" aria-controls="list-home">bouleverd</a>
+            <a class="list-group-item list-group-item-action section__work-link" id="list-streat-list"
+              data-bs-toggle="list" href="#list-streat" role="tab" aria-controls="list-home">streat</a>
+            <a class="list-group-item list-group-item-action section__work-link" id="list-vue-list"
+              data-bs-toggle="list" href="#list-vue" role="tab" aria-controls="list-home">vue</a>
+          </div>
+        </div>
+        <div class=" col-md-8 col-xl-9">
+          <div class="tab-content h-100" id="nav-tabContent ">
+            <div class="tab-pane h-100 section__work-pane  fade show active" id="list-nike" role="tabpanel"
+              aria-labelledby="list-nik-list">
+              <div class="row">
+                <div class="col-xl-3">
+                  <div class="section__work-picture">
+                    <img src="images/2022-05-21 (15).png" alt="" class="section__work-img w-100 h-100">
+                  </div>
+                </div>
+                <div class="col-xl-9">
+                  <div class="section__work-info h-100 d-flex flex-column justify-content-between">
+                    <h3 class="section__work-title">Экспорт</h3>
+                    <p class="section__work-text"> 
+                    Нашим самым крупным клиентом является Авганистан, каждый месяц мы производим около 3 000 000 яиц и 40% и них мы экспортируем Авганистан </p>
+                    <p class="section__work-text"></p>
+                    <a href="index.html" class="section__work-btn my-btn">Назад</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+</body>
+</html>
